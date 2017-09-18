@@ -7,8 +7,7 @@ To use this repo:
 2.	Put the trip data into the wasb folders. In this demo we are using wasb:///NYCData/YellowTrip/rawdata
 3.	Install required R libraries in those clusters, using the “Install additional R libraries” command in the script action drop down list:
  
-The libraries need to be installed:
-"lubridate", "rgeos", "sp", "maptools", "stringr", "magrittr","ggplot2","circlize", "purrr"
+3.1 The libraries need to be installed: "lubridate", "rgeos", "sp", "maptools", "stringr", "magrittr","ggplot2","circlize", "purrr"
 4.	Execute this script action to install libgeos in all nodes: https://raw.githubusercontent.com/akzaidi/spark_nyc_taxi/master/Instructor-Resources/Shell-Scripts/libgeos_install.sh 
 5.	Execute the R commands as below:
 6.	You should be able to see two graphs:
